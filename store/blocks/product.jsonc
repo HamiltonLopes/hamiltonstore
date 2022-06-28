@@ -7,7 +7,7 @@
   },
   "flex-layout.row#main": {
     "props": {
-      "colGap": 5,
+      "colGap": 6,
       "marginTop": 6
     },
     "children": [
@@ -16,12 +16,16 @@
     ]
   },
   "flex-layout.col#left": {
+    "props":{
+      "marginLeft": 7
+    },
     "children": [
       "product-images"
     ]
   },
   "flex-layout.col#right": {
     "props": {
+      "marginRight": 7,
       "rowGap": 5,
       "preventVerticalStretch": true,
       "verticalAlign": "middle",
