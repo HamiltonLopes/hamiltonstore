@@ -1,0 +1,44 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "info-card#home",
+      "info-card#button-right"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Hamilton VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Click Bait",
+      "callToActionText": "DUVIDO CLICARR",
+      "callToActionMode": "link",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-right": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Shining chrome",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until December 2020.",
+      "callToActionMode": "link",
+      "callToActionText": "Go to Collection",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  }
+}
