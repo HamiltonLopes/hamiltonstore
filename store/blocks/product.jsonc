@@ -7,6 +7,7 @@
   },
   "flex-layout.row#main": {
     "props": {
+      "colGap": 5,
       "marginTop": 6
     },
     "children": [
@@ -21,7 +22,7 @@
   },
   "flex-layout.col#right": {
     "props": {
-      "rowGap": 2,
+      "rowGap": 5,
       "preventVerticalStretch": true,
       "verticalAlign": "middle",
       "horizontalAlign": "middle"
