@@ -11,7 +11,6 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "vtex.product-price": "1.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
