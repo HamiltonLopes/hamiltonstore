@@ -44,9 +44,8 @@
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
       "headline": "Click Bait",
       "callToActionText": "DUVIDO CLICARR",
-      "callToActionMode": "link",
+      "callToActionMode": "button",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
       "textAlignment": "center"
     }
   },
@@ -60,6 +59,7 @@
       "callToActionMode": "link",
       "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
       "textAlignment": "center"
     }
   },
