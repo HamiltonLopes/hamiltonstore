@@ -13,7 +13,10 @@
       "info-card#button-right",
       "flex-layout.row",
       "slider-layout#home",
-      "tab-layout#home"
+      "tab-layout#home",
+      "modal-trigger#homefirst",
+      "list-context.product-list#home",
+      "stack-layout#home"
     ]
   },
   "rich-text": {
@@ -118,12 +121,6 @@
       "label": "Electronics"
     }
   },
-  "responsive-layout.mobile#mobile": {
-    "children": [
-      "rich-text#mobile",
-      "image#mobile"
-    ]
-  },
   "tab-content#home": {
     "children": [
       "tab-content.item#home1",
@@ -159,6 +156,35 @@
       "textPosition": "CENTER",
       "font": "t-heading-3"
     }
+  },
+  "modal-trigger#homefirst":{
+    "children":[
+      "rich-text#triggerfirst",
+      "modal-layout#homefirst"
+    ]
+  },
+  "modal-layout#homefirst":{
+    "children":[
+      "rich-text#modalfirst"
+    ]
+  },
+  "rich-text#triggerfirst":{
+    "props":{
+      "text":"Click Me",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#modalfirst":{
+    "props":{
+      "text":"hello"
+    }
+  },
+  "responsive-layout.mobile#mobile": {
+    "children": [
+      "rich-text#mobile",
+      "image#mobile"
+    ]
   },
   "rich-text#mobile": {
     "props": {
